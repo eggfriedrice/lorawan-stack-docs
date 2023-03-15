@@ -11,7 +11,7 @@ If configuring {{% tts %}} as `localhost` on a machine with no public IP or DNS 
 In addition to the written instructions below, video instructions for installing {{% tts %}} are available on [The Things Network youtube channel](https://www.youtube.com/c/TheThingsNetworkCommunity).
 
 <details><summary>Show video</summary>
-{{< youtube "XgPSU4UkDuE" >}}
+{{< youtube "DcmgJMvMfZc" >}}
 </details>
 
 ## Configuration Files

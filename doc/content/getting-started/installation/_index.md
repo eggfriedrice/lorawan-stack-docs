@@ -22,7 +22,7 @@ Continue following these instructions to run {{% tts %}} Enterprise or Open Sour
 In addition to the following written instructions, video instructions for installing {{% tts %}} are available on [The Things Network youtube channel](https://www.youtube.com/watch?v=XgPSU4UkDuE).
 
 <details><summary>Show video</summary>
-{{< youtube "XgPSU4UkDuE" >}}
+{{< youtube "DcmgJMvMfZc" >}}
 </details>
 
 ## Prerequisites
