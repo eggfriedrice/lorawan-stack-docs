@@ -8,7 +8,7 @@ Once you have your first LoRaWAN Network setup, here are the next steps.
 
 <!--more-->
 
-See how you can [add gateways]({{< ref "/gateways/concepts/adding-gateways" >}}), [add devices]({{< ref "devices/adding-devices" >}}), and [create integrations]({{< ref "integrations" >}})
+See how you can [add gateways]({{< ref "/gateways/adding-gateways" >}}), [add devices]({{< ref "devices/adding-devices" >}}), and [create integrations]({{< ref "integrations" >}})
 
 Learn how you can scale your LoRaWAN deployments and the best practices for a well architected LoRaWAN deployment.
 

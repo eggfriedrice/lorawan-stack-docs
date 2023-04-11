@@ -15,7 +15,7 @@ MOKOSMART's 8 channel MKGW2 gateway is embedded with Semtech’s high performanc
 
 ## Registration
 
-Create a gateway by following [the instructions]({{< ref "/gateways/concepts/adding-gateways" >}}). 
+Create a gateway by following [the instructions]({{< ref "/gateways/adding-gateways" >}}). 
 
 The **EUI** of the gateway can be found on the configuration web page of the gateway or on the device packaging. 
 
@@ -34,7 +34,7 @@ It is recommended that the default password is changed for security reasons.
 
 ## Connect to {{% tts %}}
 
-The MOKOSMART MKGW2-LW supports the UDP packet forwarder. Please follow instructions for connecting the [UDP packet forwarder]({{< ref "/gateways/concepts/udp" >}}).
+The MOKOSMART MKGW2-LW supports the UDP packet forwarder. Please follow instructions for connecting the [UDP packet forwarder]({{< ref "/gateways/udp" >}}).
 
 Do not forget to click **SAVE&APPLY** after you fill in the parameters. After a few seconds, your gateway should connect to {{% tts %}}.
 

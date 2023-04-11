@@ -146,7 +146,7 @@ Make sure you write it down for further steps.
 
 ## Register the Gateway on {{% tts %}}
 
-To register your gateway on {{% tts %}}, follow the process described in the [Adding Gateways]({{< ref "/gateways/concepts/adding-gateways/" >}}) section. For the **Gateway EUI**, use the EUI that was derived in the previous step.
+To register your gateway on {{% tts %}}, follow the process described in the [Adding Gateways]({{< ref "/gateways/adding-gateways/" >}}) section. For the **Gateway EUI**, use the EUI that was derived in the previous step.
 
 While registering, it is also recommended to enable the **Require authenticated connection** option.
 
@@ -154,7 +154,7 @@ While registering, it is also recommended to enable the **Require authenticated 
 
 Next, you need to create an API key for your gateway on {{% tts %}}, which will be used for your gateway's authentication.
 
-Follow the instructions in the [LNS]({{< ref "/gateways/concepts/lora-basics-station/lns#create-an-api-key" >}}) section to create an API key with the **Link as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink** right. Make sure to copy the key as you will not be able to see it again.
+Follow the instructions in the [LNS]({{< ref "/gateways/lora-basics-station/lns#create-an-api-key" >}}) section to create an API key with the **Link as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink** right. Make sure to copy the key as you will not be able to see it again.
 
 ## Configure {{% lbs %}}
 
@@ -172,7 +172,7 @@ Create a configuration file `tc.uri` containing an LNS server address. For examp
 echo 'wss://eu1.cloud.thethings.network:8887' | sudo tee /opt/ttn-station/config/tc.uri
 ```
 
-See [Server Addresses]({{< ref "/the-things-stack/concepts/server-addresses" >}}) if you are not sure which server address to use. See also [LNS Server Address]({{< ref "/gateways/concepts/lora-basics-station/lns#lns-server-address" >}}) for info about LNS server address format.
+See [Server Addresses]({{< ref "/the-things-stack/concepts/server-addresses" >}}) if you are not sure which server address to use. See also [LNS Server Address]({{< ref "/gateways/lora-basics-station/lns#lns-server-address" >}}) for info about LNS server address format.
 
 Next, create the `tc.key` configuration file containing an authorization header. This header will contain the API Key you created in the previous step, and it will be used to authenticate your gateway's connection.
 

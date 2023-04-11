@@ -18,7 +18,7 @@ aliases: [/gateways/lora-basics-station/cups]
 
 ## Create a Gateway
 
-To connect a gateway using the CUPS protocol, you must first add the gateway in {{% tts %}}. This can be done either in the console, or via the command line. See instructions for [Adding Gateways]({{< ref "/gateways/concepts/adding-gateways" >}}). 
+To connect a gateway using the CUPS protocol, you must first add the gateway in {{% tts %}}. This can be done either in the console, or via the command line. See instructions for [Adding Gateways]({{< ref "/gateways/adding-gateways" >}}). 
 
 ## Create Separate CUPS and LNS API Keys
 
@@ -38,7 +38,7 @@ LNS requires an API Key with the following rights:
 
 {{< figure src="../lns-rights.png" alt="LNS API Key Rights" >}}
 
-To create these API keys for your gateway, follow instructions for [Creating a Gateway API key]({{< ref "/gateways/concepts/adding-gateways#create-gateway-api-key" >}}).
+To create these API keys for your gateway, follow instructions for [Creating a Gateway API key]({{< ref "/gateways/adding-gateways#create-gateway-api-key" >}}).
 
 ## Configure CUPS to Send the LNS API Key
 
@@ -48,7 +48,7 @@ To create these API keys for your gateway, follow instructions for [Creating a G
 
 We need to configure CUPS in {{% tts %}} to transmit the LNS API key when a gateway connects. To do so in the Console, go to the **General Settings** page of your gateway.
 
-In the **LoRa Basics Station LNS Authentication Key** field, paste the [LNS API key]({{< ref "/gateways/concepts/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you generated in the previous step.
+In the **LoRa Basics Station LNS Authentication Key** field, paste the [LNS API key]({{< ref "/gateways/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you generated in the previous step.
 
 {{< figure src="../lns-key.png" alt="LoRa Basics Station LNS Authentication Key" >}}
 
@@ -58,7 +58,7 @@ Press **Save Changes** to update the gateway settings. When your gateway connect
 
 {{< tabs/tab "CLI" >}}
 
-We need to configure CUPS in {{% tts %}} to transmit the LNS API key when a gateway connects. Use the following command to do so, replacing `"your-gateway-id"` with your gateway ID in {{% tts %}} and  `"your-lns-api-key"` with the [LNS API key]({{< ref "/gateways/concepts/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you created in the last step:
+We need to configure CUPS in {{% tts %}} to transmit the LNS API key when a gateway connects. Use the following command to do so, replacing `"your-gateway-id"` with your gateway ID in {{% tts %}} and  `"your-lns-api-key"` with the [LNS API key]({{< ref "/gateways/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you created in the last step:
 
 ```bash
 GTW_ID="your-gateway-id"
@@ -118,7 +118,7 @@ Upload the `.pem` file in your gateway as the CUPS Server Certificate, i.e. CUPS
 
 This is a file which {{% tts %}} uses to verify the identity of your gateway.
 
-Instructions below show how to create a file called `cups.key`, replacing `"your-cups-api-key"` with the [CUPS API key]({{< ref "/gateways/concepts/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you created above.
+Instructions below show how to create a file called `cups.key`, replacing `"your-cups-api-key"` with the [CUPS API key]({{< ref "/gateways/lora-basics-station/cups#create-separate-cups-and-lns-api-keys" >}}) you created above.
 
 On Linux or macOS use the following commands:
 

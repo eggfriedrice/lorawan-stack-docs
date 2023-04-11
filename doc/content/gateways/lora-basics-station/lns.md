@@ -20,7 +20,7 @@ These are general instructions for all {{% lbs %}} gateways. For specific instru
 
 ## Create a Gateway
 
-To connect a gateway using the LNS protocol, you must first add the gateway in {{% tts %}}. This can be done either in the console, or via the command line. See instructions for [Adding Gateways]({{< ref "/gateways/concepts/adding-gateways" >}}). 
+To connect a gateway using the LNS protocol, you must first add the gateway in {{% tts %}}. This can be done either in the console, or via the command line. See instructions for [Adding Gateways]({{< ref "/gateways/adding-gateways" >}}). 
 
 ## Create an API Key
 
@@ -30,7 +30,7 @@ LNS requires an API Key with the following rights:
 
 {{< figure src="../lns-rights.png" alt="LNS API Key Rights" >}}
 
-To create this API key for your gateway, follow instructions for [Creating a Gateway API key ]({{< ref "/gateways/concepts/adding-gateways#create-gateway-api-key" >}}).
+To create this API key for your gateway, follow instructions for [Creating a Gateway API key ]({{< ref "/gateways/adding-gateways#create-gateway-api-key" >}}).
 
 ## Configure Gateway
 
@@ -54,7 +54,7 @@ Upload the `.pem` file in your gateway as the LNS Server Certificate, i.e. LNS T
 
 This is a file which {{% tts %}} uses to verify the identity of your gateway.
 
-Instructions below show how to create a file called `lns.key`, replacing `"your-lns-api-key"` with the [LNS API key]({{< ref "/gateways/concepts/lora-basics-station/lns#create-an-api-key" >}}) you created above.
+Instructions below show how to create a file called `lns.key`, replacing `"your-lns-api-key"` with the [LNS API key]({{< ref "/gateways/lora-basics-station/lns#create-an-api-key" >}}) you created above.
 
 On Linux or macOS use the following commands:
 

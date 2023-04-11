@@ -10,7 +10,7 @@ aliases: [/gateways/peplink]
 
 The Balance 20X delivers excellent routing throughput with an embedded cellular modem, making it an easy-to-use, all-in-one router for indoor deployments. Its installation and configuration are made simple through a web-based user-friendly interface. 
 
-The gateway supports both [LoRa Basics™ Station]({{< ref "/gateways/concepts/lora-basics-station" >}}) and the [Semtech UDP Packet Forwarder]({{< ref "/gateways/concepts/udp" >}}). Keep in mind that using Lora Basics™ Station is preferred.
+The gateway supports both [LoRa Basics™ Station]({{< ref "/gateways/lora-basics-station" >}}) and the [Semtech UDP Packet Forwarder]({{< ref "/gateways/udp" >}}). Keep in mind that using Lora Basics™ Station is preferred.
 
 For scalable deployments, Peplink’s in-house device management system, [InControl](https://www.peplink.com/software/network-management-solution-incontrol-2/) can also be used.
 
@@ -25,7 +25,7 @@ For scalable deployments, Peplink’s in-house device management system, [InCont
 
 ## Registration
 
-Create a gateway by following the instructions for [Adding Gateways]({{< ref "/gateways/concepts/adding-gateways" >}}). 
+Create a gateway by following the instructions for [Adding Gateways]({{< ref "/gateways/adding-gateways" >}}). 
 
 In the registration process, you will need the gateway's EUI. The Peplink 20X's EUI can be found in several ways:
 
@@ -49,7 +49,7 @@ Now configure the following settings:
 - **Protocol: Basics™ Station**
 - **Server**: select **Configuration and Update Server (CUPS)** and enter the address of your {{% tts %}} deployment
 - **Server Certificate (pem encoded):** paste the ISRG Root X1 certificate you previously downloaded
-- **Gateway Authorization:** select **Token** and paste your gateway's API key (check the [Create Gateway API Key]({{< ref "/gateways/concepts/adding-gateways/#create-gateway-api-key" >}}) section)
+- **Gateway Authorization:** select **Token** and paste your gateway's API key (check the [Create Gateway API Key]({{< ref "/gateways/adding-gateways/#create-gateway-api-key" >}}) section)
 - **Network Mode: Public**
 - **Antenna Gain:** enter antenna Gain (**2dBi** for Peplink Balance 20X gateway)
 - **Cable Loss:** enter cable loss if there is a cable between antenna and LoRa module
